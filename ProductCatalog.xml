@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+	<ConsoleCatalog>
+		<console id="Xbox One">
+			<name>Xbox One</name>
+			<price>399.99</price>
+			<image>xbox1.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>xboxone_wc</accessory>
+				<accessory>xboxone_sh</accessory>
+				<accessory>xboxone_kg</accessory>
+				<accessory>xboxone_vb</accessory>
+				<accessory>xboxone_rs</accessory>
+				<accessory>xboxone_mp</accessory>
+				<accessory>xboxone_mc</accessory>
+				
+				
+			</accessories>
+		</console>
+		<console id="xbox360">
+			<name>xbox360</name>
+			<price>399.99</price>
+			<image>xbox360.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>xbox360_wc</accessory>
+				<accessory>xbox360_sh</accessory>
+				<accessory>xbox360_vb</accessory>
+				<accessory>xbox360_rs</accessory>
+				<accessory>xbox360_mp</accessory>
+				<accessory>xbox360_kg</accessory>
+			</accessories>
+		</console>
+
+		<console id="PS4">
+			<name>PS4</name>
+			<price>349.99</price>
+			<image>PS4-console-bundle.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>ps4_wc</accessory>
+				
+			</accessories>
+		</console>
+		<console id="PS3">
+			<name>PS3</name>
+			<price>349.99</price>
+			<image>ps3.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>ps3_wc</accessory>
+				
+			</accessories>
+		</console>
+		<console id="WII">
+			<name>WII</name>
+			<price>249.99</price>
+			<image>Wii-Console.png</image>
+			<manufacturer>Nintendo</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>nintendo_wc</accessory>
+				<accessory>nintendo_sh</accessory>
+			</accessories>
+		</console>
+	</ConsoleCatalog>
+
+	<TabletCatalog>
+		<tablet id="ipad">
+			<name>Apple Ipad Pro</name>
+			<price>189.99</price>
+			<image>apple1.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</tablet>
+		<tablet id="ipad3">
+			<name>Apple Ipad 3</name>
+			<price>189.99</price>
+			<image>apple2.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>Used</condition>
+			<discount>20.0</discount>
+		</tablet>
+		<tablet id="Surface">
+			<name>Surface</name>
+			<price>299.99</price>
+			<image>m1.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>15.0</discount>
+		</tablet>
+		<tablet id="Surface4">
+			<name>Surface Pro 4</name>
+			<price>299.99</price>
+			<image>m2.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>15.0</discount>
+		</tablet>
+		<tablet id="Samsung2">
+			<name>Samsung Tab 2</name>
+			<price>150.99</price>
+			<image>s1.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>15.0</discount>
+		</tablet>
+
+	</TabletCatalog>
+	<GamesCatalog>
+		<game id="g1">
+			<name>FIFA 2016</name>
+			<price>50.99</price>
+			<image>ea_fifa.jpg</image>
+			<manufacturer>ElectronicArts</manufacturer>
+			<condition>New</condition>
+			<discount>15.0</discount>
+		</game>
+		<game id="g2">
+			<name>Need for Speed</name>
+			<price>50.99</price>
+			<image>ea_nfs.jpg</image>
+			<manufacturer>ElectronicArts</manufacturer>
+			<condition>Refurbished</condition>
+			<discount>15.0</discount>
+		</game>
+		<game id="g3">
+			<name>Call Of Duty</name>
+			<price>50.99</price>
+			<image>activision_cod.jpg</image>
+			<manufacturer>Activision</manufacturer>
+			<condition>New</condition>
+			<discount>15.0</discount>
+		</game>
+		<game id="g4">
+			<name>Evolve</name>
+			<price>50.99</price>
+			<image>tti_evolve.jpg</image>
+			<manufacturer>TakeTwoInteractive</manufacturer>
+			<condition>New</condition>
+			<discount>15.0</discount>
+		</game>
+	</GamesCatalog>
+
+	<AccessoryCatalog>
+
+		<accessory id="xboxone_wc">
+			<name>Controller</name>
+			<price>89.99</price>
+			<image>XBOX controller.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_sh">
+			<name>Turtle Beach Headset</name>
+			<price>89.99</price>
+			<image>Turtle Beach Headset.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_vb">
+			<name>joystick</name>
+			<price>89.99</price>
+			<image>joystick.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_kg">
+			<name>Keypad</name>
+			<price>89.99</price>
+			<image>keypad.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_rs">
+			<name>Starterkit</name>
+			<price>89.99</price>
+			<image>starterkit.jpeg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_mp">
+			<name>Wireless adpter</name>
+			<price>89.99</price>
+			<image>wirelessadapter.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_mc">
+			<name>Wireless </name>
+			<price>89.99</price>
+			<image>wirelessadapter.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+
+		<accessory id="xbox360_wc">
+			<name>Intex PowerBank</name>
+			<price>22.99</price>
+			<image>ipb.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>2.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_sh">
+			<name>XBOX Wireless Adapter</name>
+			<price>89.99</price>
+			<image>xbox360_wa.png</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_vb">
+			<name>Remote</name>
+			<price>89.99</price>
+			<image>remote.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+		
+		<accessory id="xbox360_rs">
+			<name>HP Pendrive</name>
+			<price>10.99</price>
+			<image>hppd.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>2.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_mp">
+			<name>Steering</name>
+			<price>89.99</price>
+			<image>steering.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_kg">
+			<name>Charger</name>
+			<price>89.99</price>
+			<image>charger.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="hp_pendrive">
+			<name>HP Pendrive</name>
+			<price>4.99</price>
+			<image>hppd.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>2.0</discount>
+		</accessory>
+
+		<accessory id="intex_powerbank">
+			<name>Intex Powerbank</name>
+			<price>21.99</price>
+			<image>ipb.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>1.99</discount>
+		</accessory>
+
+		<accessory id="ps4_wc">
+			<name>PS Controller</name>
+			<price>89.99</price>
+			<image>XBOX controller.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="ps3_wc">
+			<name>PS Gaming HeadPhones</name>
+			<price>89.99</price>
+			<image>Turtle Beach Headset.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="nintendo_wc">
+			<name>Nintendo Controller</name>
+			<price>89.99</price>
+			<image>Wii1.jpg</image>
+			<manufacturer>Nintendo</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="nintendo_sh">
+			<name>Nintendo Racing Controller</name>
+			<price>89.99</price>
+			<image>Wii2.jpg</image>
+			<manufacturer>Nintendo</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+<!--
+		<accessory id="hp_pendrive">
+			<name>HP Pendrive</name>
+			<price>4.99</price>
+			<image>hppd.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>2.0</discount>
+		</accessory>
+
+		<accessory id="intex_powerbank">
+			<name>Intex Powerbank</name>
+			<price>21.99</price>
+			<image>ipb.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>1.99</discount>
+		</accessory>
+-->
+	</AccessoryCatalog>
+
+	<TelevisionCatalog>
+		<television id="microsoft_tv">
+			<name>Microsoft Television</name>
+			<price>89.99</price>
+			<image>mstv.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+			<accessories>
+				<accessory>hp_pendrive</accessory>
+				<accessory>intex_powerbank</accessory>
+			</accessories>
+		</television>
+		
+		<television id="lg_tv">
+			<name>LG Television</name>
+			<price>89.99</price>
+			<image>lgtv.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+			<accessories>
+				<accessory>ps3_wc</accessory>
+				<accessory>ps4_wc</accessory>
+			</accessories>
+		</television>
+		
+		<television id="samsung_tv">
+			<name>Samsung Television</name>
+			<price>89.99</price>
+			<image>samsungtv.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+			<accessories>
+				<accessory>xbox360_kg</accessory>
+				<accessory>xbox360_mp</accessory>
+			</accessories>
+		</television>
+		
+		<television id="sony_tv">
+			<name>Sony Television</name>
+			<price>89.99</price>
+			<image>sonytv.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+			<accessories>
+				<accessory>xbox360_rs</accessory>
+				<accessory>xbox360_vb</accessory>
+			</accessories>
+		</television>
+		
+		<television id="onida_tv">
+			<name>Onida Television</name>
+			<price>89.99</price>
+			<image>onidatv.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+			<accessories>
+				<accessory>xbox360_sh</accessory>
+				<accessory>xbox360_wc</accessory>
+			</accessories>
+		</television>
+	</TelevisionCatalog>
+
+	<SoundSystemCatalog>
+		<soundSystem id="microsoft_sound_system">
+			<name>Microsoft SoundSystem</name>
+			<price>89.99</price>
+			<image>msss.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</soundSystem>
+		
+		<soundSystem id="lg_sound_system">
+			<name>LG SoundSystem</name>
+			<price>89.99</price>
+			<image>lgss.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</soundSystem>
+		
+		<soundSystem id="samsung_sound_system">
+			<name>Samsung SoundSystem</name>
+			<price>89.99</price>
+			<image>samsungss.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</soundSystem>
+		
+		<soundSystem id="sony_sound_system">
+			<name>Sony SoundSystem</name>
+			<price>89.99</price>
+			<image>sonyss.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</soundSystem>
+		
+		<soundSystem id="onida_sound_system">
+			<name>Onida SoundSystem</name>
+			<price>89.99</price>
+			<image>onidass.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</soundSystem>
+	</SoundSystemCatalog>
+
+	<PhoneCatalog>
+		<phone id="microsoft_phone">
+			<name>Microsoft Phone</name>
+			<price>89.99</price>
+			<image>msph.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</phone>
+		
+		<phone id="lg_phone">
+			<name>LG Phone</name>
+			<price>89.99</price>
+			<image>lgph.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</phone>
+		
+		<phone id="samsung_phone">
+			<name>Samsung Phone</name>
+			<price>89.99</price>
+			<image>samsungph.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</phone>
+		
+		<phone id="sony_phone">
+			<name>Sony Phone</name>
+			<price>89.99</price>
+			<image>sonyph.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</phone>
+		
+		<phone id="onida_phone">
+			<name>Onida Phone</name>
+			<price>89.99</price>
+			<image>onidaph.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</phone>
+	</PhoneCatalog>
+	
+	<LaptopCatalog>
+		<laptop id="microsoft_laptop">
+			<name>Microsoft Laptop</name>
+			<price>89.99</price>
+			<image>mslap.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</laptop>
+		
+		<laptop id="lg_laptop">
+			<name>LG Laptop</name>
+			<price>89.99</price>
+			<image>lglap.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</laptop>
+		
+		<laptop id="samsung_laptop">
+			<name>Samsung Laptop</name>
+			<price>89.99</price>
+			<image>samsunglap.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</laptop>
+		
+		<laptop id="sony_laptop">
+			<name>Sony Laptop</name>
+			<price>89.99</price>
+			<image>sonylap.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</laptop>
+		
+		<laptop id="onida_laptop">
+			<name>Onida Laptop</name>
+			<price>89.99</price>
+			<image>onidalap.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</laptop>
+	</LaptopCatalog>
+	
+	<VoiceAssistantCatalog>
+		<voiceAssistant id="microsoft_voice_assistant">
+			<name>Microsoft VoiceAssistant</name>
+			<price>89.99</price>
+			<image>msva.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</voiceAssistant>
+		
+		<voiceAssistant id="lg_voice_assistant">
+			<name>LG VoiceAssistant</name>
+			<price>89.99</price>
+			<image>lgva.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</voiceAssistant>
+		
+		<voiceAssistant id="samsung_voice_assistant">
+			<name>Samsung VoiceAssistant</name>
+			<price>89.99</price>
+			<image>samsungva.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</voiceAssistant>
+		
+		<voiceAssistant id="sony_voice_assistant">
+			<name>Sony VoiceAssistant</name>
+			<price>89.99</price>
+			<image>sonyva.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</voiceAssistant>
+		
+		<voiceAssistant id="onida_voice_assistant">
+			<name>Onida VoiceAssistant</name>
+			<price>89.99</price>
+			<image>onidava.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</voiceAssistant>
+	</VoiceAssistantCatalog>
+	
+	<FitnessWatchCatalog>
+		<fitnessWatch id="microsoft_fitness_watch">
+			<name>Microsoft FitnessWatch</name>
+			<price>89.99</price>
+			<image>msfw.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</fitnessWatch>
+		
+		<fitnessWatch id="lg_fitness_watch">
+			<name>LG FitnessWatch</name>
+			<price>89.99</price>
+			<image>lgfw.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</fitnessWatch>
+		
+		<fitnessWatch id="samsung_fitness_watch">
+			<name>Samsung FitnessWatch</name>
+			<price>89.99</price>
+			<image>samsungfw.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</fitnessWatch>
+		
+		<fitnessWatch id="sony_fitness_watch">
+			<name>Sony FitnessWatch</name>
+			<price>89.99</price>
+			<image>sonyfw.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</fitnessWatch>
+		
+		<fitnessWatch id="onida_fitness_watch">
+			<name>Onida FitnessWatch</name>
+			<price>89.99</price>
+			<image>onidafw.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</fitnessWatch>
+	</FitnessWatchCatalog>
+	
+	<SmartWatchCatalog>
+		<smartWatch id="microsoft_smart_watch">
+			<name>Microsoft SmartWatch</name>
+			<price>89.99</price>
+			<image>mssw.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</smartWatch>
+		
+		<smartWatch id="lg_smart_watch">
+			<name>LG SmartWatch</name>
+			<price>89.99</price>
+			<image>lgsw.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</smartWatch>
+		
+		<smartWatch id="samsung_smart_watch">
+			<name>Samsung SmartWatch</name>
+			<price>89.99</price>
+			<image>samsungsw.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</smartWatch>
+		
+		<smartWatch id="sony_smart_watch">
+			<name>Sony SmartWatch</name>
+			<price>89.99</price>
+			<image>sonysw.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</smartWatch>
+		
+		<smartWatch id="onida_smart_watch">
+			<name>Onida SmartWatch</name>
+			<price>89.99</price>
+			<image>onidasw.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</smartWatch>
+	</SmartWatchCatalog>
+	
+	<HeadphoneCatalog>
+		<headphone id="microsoft_headphone">
+			<name>Microsoft Headphone</name>
+			<price>89.99</price>
+			<image>mshp.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</headphone>
+		
+		<headphone id="lg_headphone">
+			<name>LG Headphone</name>
+			<price>89.99</price>
+			<image>lghp.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</headphone>
+		
+		<headphone id="samsung_headphone">
+			<name>Samsung Headphone</name>
+			<price>89.99</price>
+			<image>samsunghp.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</headphone>
+		
+		<headphone id="sony_headphone">
+			<name>Sony Headphone</name>
+			<price>89.99</price>
+			<image>sonyhp.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</headphone>
+		
+		<headphone id="onida_headphone">
+			<name>Onida Headphone</name>
+			<price>89.99</price>
+			<image>onidahp.jpg</image>
+			<manufacturer>Onida</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</headphone>
+	</HeadphoneCatalog>
+
+	<WirelessPlansCatalog>
+		<wirelessPlan id="basic">
+			<name>Basic Plan</name>
+			<price>89.99</price>
+			<image>basicwp.jpg</image>
+			<manufacturer>Basic</manufacturer>
+			<condition>New</condition>
+			<plan_description>Unlimited talk, text and data</plan_description>
+			<discount>40.0</discount>
+		</wirelessPlan>
+		
+		<wirelessPlan id="premium">
+			<name>Premium Plan</name>
+			<price>89.99</price>
+			<image>premiumwp.jpg</image>
+			<manufacturer>Premium</manufacturer>
+			<condition>New</condition>
+			<plan_description>The Basic plan with added music and video streaming</plan_description>
+			<discount>40.0</discount>
+		</wirelessPlan>
+		
+		<wirelessPlan id="ultimate">
+			<name>Ultimate Plan</name>
+			<price>89.99</price>
+			<image>ultimatewp.jpg</image>
+			<manufacturer>Ultimate</manufacturer>
+			<condition>New</condition>
+			<plan_description>The Premium plan with added speed and performance during peak hours</plan_description>
+			<discount>40.0</discount>
+		</wirelessPlan>
+
+		<wirelessPlan id="ultimate2">
+			<name>Ultimate Plan2</name>
+			<price>89.99</price>
+			<image>ultimatewp.jpg</image>
+			<manufacturer>Ultimate</manufacturer>
+			<condition>New</condition>
+			<plan_description>The Premium plan with added speed and performance during peak hours</plan_description>
+			<discount>40.0</discount>
+		</wirelessPlan>
+	</WirelessPlansCatalog>
+
+</ProductCatalog>

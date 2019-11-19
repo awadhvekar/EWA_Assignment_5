@@ -1,0 +1,22 @@
+Assignment3 Queries:
+
+1.	SELECT productName, productPrice, numberOfAvailableProducts FROM productdetails;
+2.	SELECT productName, productPrice, productDiscount, numberOfAvailableProducts FROM productdetails WHERE productDiscount > 0;
+-- Manufacturer Rebate
+3.	SELECT productName, productPrice, numberOfItemsSold, (productPrice * numberOfItemsSold) AS productTotalSales FROM productdetails;
+-- OR
+-- SELECT * FROM customerorders co GROUP BY co.orderName;
+-- SELECT orderDate, SUM(orderPrice) AS totalDailySales FROM customerorders GROUP BY orderDate;
+
+4.	SELECT orderDate, SUM(orderPrice) AS totalDailySales,
+	-- GROUP_CONCAT(orderName) AS totalProductsListSoldOnDay,
+	-- GROUP_CONCAT(orderPrice) AS totalPriceOfProductsListSoldOnDay,
+	GROUP_CONCAT(CONCAT(orderName, " (", orderPrice, ")")) AS productsListDesciption
+	FROM customerorders GROUP BY orderDate;
+
+	SELECT orderDate, SUM(orderPrice) AS totalDailySales, GROUP_CONCAT(CONCAT(orderName, ' (', orderPrice, ')')) AS productsListDesciption FROM customerorders GROUP BY orderDate;
+
+
+
+
+https://developers.google.com/chart/interactive/docs/gallery/barchart
