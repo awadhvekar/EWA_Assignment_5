@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.*;
 
 @WebServlet("/Home")
 
@@ -22,7 +23,9 @@ public class Home extends HttpServlet {
 		Utilities utility = new Utilities(request,pw);
 		utility.printHtml("Header.html");
 		utility.printHtml("LeftNavigationBar.html");
-		utility.printHtml("Content.html");
+		//utility.printHtml("Content.html");
+		RequestDispatcher rd=request.getRequestDispatcher("DealMatchesUtilities");
+		rd.include(request,response);
 		utility.printHtml("Footer.html");
 				
 	}
